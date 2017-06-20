@@ -1,0 +1,232 @@
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+body{
+
+	margin: 0px;
+}
+
+header{
+	background:  url("images/bg.jpeg");
+	height: 400%;
+	width: 100%;
+	box-sizing: border-box;
+	background-size: cover;
+
+}
+
+
+.logo{
+	
+}
+.latam_logo{
+	width: 20%;
+	position: relative;
+	left: -448px;
+	top: 20px;
+}
+
+ul li {
+    display: inline;
+    font-family: 'Helvetica', sans-serif;
+	text-transform: uppercase;
+	color: #ffffff;
+	position: relative;
+	right: -430px;
+	top: -80px;
+	display: inline-block;
+
+}
+
+nav{
+
+
+}
+nav ul li a {
+	text-decoration: none;
+	color:white;
+
+}
+nav ul li a:hover {
+	text-decoration: underline;
+	color:yellow;
+}
+header h1{
+	width: 55%;
+    margin: 0 auto;
+    font-size: 35px;
+    margin-bottom: 35px;
+
+
+}
+.conten{
+	margin-top: 130px;
+
+
+}
+.container {
+	color: #FFFFFF;
+	text-align: center;
+	padding-bottom: 73px;
+	line-height: 35px; /*interlineado*/
+	font-family: 'Helvetica', sans-serif;
+	text-transform: uppercase; /*mayuscula*/
+	/*bottom: 130px;*/
+	margin-left: auto;
+	margin-right: auto; /*centra la web automáticamente*/
+    margin: 0px;
+
+}
+.container p {
+	font-family: 'Helvetica', sans-serif;
+    text-transform: lowercase;
+    font-size: 15px;
+    line-height: 18px; /*interlineado*/
+
+}
+
+.boton1 {
+	/*border: 1px solid #2e518b;*/ /*anchura, estilo y color borde*/
+	padding: 13px; /*espacio alrededor texto*/
+	background-color: #2e518b; /*color botón*/
+	color: #ffffff; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	font-size: 10px;
+	text-transform: uppercase; /*capitalización texto*/
+	font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+	border-radius: 6px; /*bordes redondos*/
+	margin-bottom: 35px;
+}
+
+.boton2 {
+	/*border: 1px solid #2e518b;*/ /*anchura, estilo y color borde*/
+	padding: 13px; /*espacio alrededor texto*/
+	background-color: #4caf5d; /*color botón*/
+	color: #ffffff; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	font-size: 10px;
+	text-transform: uppercase; /*capitalización texto*/
+	font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+	border-radius: 5px; /*bordes redondos*/
+	margin-top: 300px;
+}
+
+.boton3 {
+	/*border: 1px solid #2e518b;*/ /*anchura, estilo y color borde*/
+	padding: 13px; /*espacio alrededor texto*/
+	background-color: #2e518b; /*color botón*/
+	color: #ffffff; /*color texto*/
+	text-decoration: none; /*decoración texto*/
+	font-size: 15px;
+	text-transform: lowercase; /*capitalización texto*/
+	font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+	border-radius: 5px; /*bordes redondos*/
+	margin-top: 300px;
+}	
+
+.texto2{
+	font-family: 'Helvetica', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.people{
+	width: 30%;
+	margin: auto;
+	margin-bottom: 0px;
+/*	position: relative;
+*/
+}
+
+
+.medio p{
+	text-align: center;
+	font-family: 'Helvetica', sans-serif;
+	text-transform: lowercase;
+
+}
+.medio{
+	text-align: center;
+	padding-top: 10px;
+	margin-bottom: -4.3px;
+	display: block;
+}
+
+.final{
+    text-align: center;
+	font-family: 'Helvetica', sans-serif;
+	text-transform: lowercase;
+	background-color: #F5F5F5;
+/*	padding-top: 20px;
+*/	padding-bottom: 20px;
+	border-style: solid;
+	border-color: #BDBDBD;
+	border-width: 0.5px 0px 0.5px 0px;
+/*	margin-top: 0px;
+*/
+}
+
+.infe{
+	font-family: 'Helvetica', sans-serif;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.banner .contacto{
+	float: left;
+    padding-bottom: 20px;
+    padding-left: 5%; 
+    font-family: 'Helvetica', sans-serif;
+	text-transform: uppercase;
+	line-height: 5px;
+
+
+}
+.banner .suscribete{
+	float: right;
+	padding-right: 5%;
+	font-family: 'Helvetica', sans-serif;
+	text-transform: uppercase;
+}
+
+.suscribete p{
+	text-transform: lowercase;
+
+
+}	
+
+.inferior{
+	clear: left;
+    padding-left: 5%; 
+    font-family: 'Helvetica', sans-serif;
+	text-transform: uppercase;
+	background-color: black;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin-top: 40px;
+	width: auto;
+}
+
+
+
+
+
